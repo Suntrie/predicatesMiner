@@ -1,0 +1,2731 @@
+Dynamic Comprability file successfully created. Mar 30, 2019 7:55:44 PMDynamic Comprability file is creating now...Mar 30, 2019 8:05:24 PMDynamic Comprability file successfully created. Mar 30, 2019 8:05:25 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 8:05:51 PMDynamic Comprability file successfully created. Mar 30, 2019 8:06:11 PMDynamic Comprability file is creating now...Mar 30, 2019 8:09:43 PMDynamic Comprability file successfully created. Mar 30, 2019 8:09:43 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 8:10:59 PMDynamic Comprability file successfully created. Mar 30, 2019 8:11:00 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 8:14:11 PMDynamic Comprability file successfully created. Mar 30, 2019 8:14:12 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 8:15:09 PMDynamic Comprability file successfully created. Mar 30, 2019 8:15:10 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 8:15:39 PMDynamic Comprability file successfully created. Mar 30, 2019 8:15:39 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 8:15:49 PMDynamic Comprability file successfully created. Mar 30, 2019 8:15:49 PMDynamic Comprability file is creating now...Mar 30, 2019 8:17:19 PMDynamic Comprability file successfully created. Mar 30, 2019 8:17:20 PMunknown option name '--comparability-file ' in arg '--comparability-file = dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:04:17 PMException in thread "Thread-0" java.lang.Error: Can't open ./tmp/dyndynCompComp.decls-DynComp
+	at daikon.dcomp.Premain.open(Premain.java:234)
+	at daikon.dcomp.Premain$ShutdownThread.run(Premain.java:211)
+Caused by: java.nio.file.NoSuchFileException: ./tmp/dyndynCompComp.decls-DynComp
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at java.nio.file.Files.newBufferedWriter(Files.java:2860)
+	at daikon.dcomp.Premain.open(Premain.java:229)
+	... 1 more
+Dynamic Comprability file successfully created. Mar 30, 2019 10:04:17 PMunknown option name '--comparability-file ' in arg '--comparability-file = ./tmp/dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:04:36 PMException in thread "Thread-0" java.lang.Error: Can't open tmp/dyndynCompComp.decls-DynComp
+	at daikon.dcomp.Premain.open(Premain.java:234)
+	at daikon.dcomp.Premain$ShutdownThread.run(Premain.java:211)
+Caused by: java.nio.file.NoSuchFileException: tmp/dyndynCompComp.decls-DynComp
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at java.nio.file.Files.newBufferedWriter(Files.java:2860)
+	at daikon.dcomp.Premain.open(Premain.java:229)
+	... 1 more
+Dynamic Comprability file successfully created. Mar 30, 2019 10:04:36 PMunknown option name '--comparability-file ' in arg '--comparability-file = ./tmp/dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:05:47 PMException in thread "Thread-0" java.lang.Error: Can't open /home/suntrie/IdeaProjects/predicatesMiner/tmp/dyndynCompComp.decls-DynComp
+	at daikon.dcomp.Premain.open(Premain.java:234)
+	at daikon.dcomp.Premain$ShutdownThread.run(Premain.java:211)
+Caused by: java.nio.file.NoSuchFileException: /home/suntrie/IdeaProjects/predicatesMiner/tmp/dyndynCompComp.decls-DynComp
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at java.nio.file.Files.newBufferedWriter(Files.java:2860)
+	at daikon.dcomp.Premain.open(Premain.java:229)
+	... 1 more
+Dynamic Comprability file successfully created. Mar 30, 2019 10:05:48 PMunknown option name '--comparability-file ' in arg '--comparability-file = /home/suntrie/IdeaProjects/predicatesMiner/tmp/dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:06:01 PMException in thread "Thread-0" java.lang.Error: Can't open /home/suntrie/IdeaProjects/predicatesMiner/tmp/dyndynCompComp.decls-DynComp
+	at daikon.dcomp.Premain.open(Premain.java:234)
+	at daikon.dcomp.Premain$ShutdownThread.run(Premain.java:211)
+Caused by: java.nio.file.NoSuchFileException: /home/suntrie/IdeaProjects/predicatesMiner/tmp/dyndynCompComp.decls-DynComp
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at java.nio.file.Files.newBufferedWriter(Files.java:2860)
+	at daikon.dcomp.Premain.open(Premain.java:229)
+	... 1 more
+Dynamic Comprability file successfully created. Mar 30, 2019 10:06:02 PMDynamic Comprability file is creating now...Mar 30, 2019 10:06:50 PMDynamic Comprability file is creating now...Mar 30, 2019 10:17:00 PMDynamic Comprability file successfully created. Mar 30, 2019 10:17:00 PMunknown option name '--comparability-file ' in arg '--comparability-file = /home/suntrie/IdeaProjects/predicatesMiner/tmp/dyndynCompComp.decls-DynComp'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:25:14 PMDynamic Comprability file successfully created. Mar 30, 2019 10:25:18 PMDynamic Comprability file is creating now...Mar 30, 2019 10:26:49 PMDynamic Comprability file successfully created. Mar 30, 2019 10:26:50 PMunknown option name '--dtrace-file ' in arg '--dtrace-file =tracerace.dtrace.gz'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:27:24 PMDynamic Comprability file successfully created. Mar 30, 2019 10:27:25 PMunknown option name '--dtrace-file ' in arg '--dtrace-file =tracerace.dtrace.gz'
+Usage: daikon.Chicory [options] target [target-args]
+  --dtrace-file=<filename>         - File in which to put dtrace output
+  --omit-var=<regex>               - Omit variables that match this regular expression.
+  --output-dir=<filename>          - Directory in which to create output files [default .]
+  --nesting-depth=<int>            - Depth to examine structure components [default 2]
+  --ppt-omit-pattern=<regex> [+]   - Omit all program points that match
+  --ppt-select-pattern=<regex> [+] - Include only program points that match
+  --comparability-file=<filename>  - Decl formatted file containing comparability information
+  --instrument-clinit=<boolean>    - Write static initializer program points [default false]
+  --std-visibility=<boolean>       - Include variables that are visible under normal java access rules [default false]
+  --verbose=<boolean>              - Print progress information [default false]
+  --debug=<boolean>                - Print debug information and save instrumented classes [default false]
+  --debug-transform=<boolean>      - Print detailed information on which classes are transformed [default false]
+  --debug-decl-print=<boolean>     - Print detailed information on variables being observed [default false]
+  --boot-classes=<regex>           - Treat classes that match the regex as boot classes (do not instrument)
+  --heap-size=<string>             - Size of the heap for the target program, and for Daikon if it is run [default 1000m]
+  --debug-ppt-names=<boolean>      - Print information about each ppt name as it is created [default false]
+  --new-decl-format=<boolean>      - Create the new declaration record format [default true]
+  --premain=<filename>             - Path to the Chicory agent jar file
+  --purity-file=<filename>         - File of pure methods to use as additional Daikon variables
+  --config-dir=<filename>          - Directory in which to find configuration files
+  --daikon=<boolean>               - Run Daikon on the generated data trace file [default false]
+  --daikon-online=<boolean>        - Send trace information to Daikon over a socket [default false]
+  --daikon-args=<string>           - Specify Daikon arguments for either --daikon or --daikon-online [default ]
+  --sample-start=<int>             - Number of calls after which sampling will begin [default 0]
+
+[+] marked option can be specified multiple times
+Dynamic Comprability file is creating now...Mar 30, 2019 10:34:47 PMDynamic Comprability file successfully created. Mar 30, 2019 10:34:48 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 2, 2019 8:31:46 PMDynamic Comprability file successfully created. Apr 2, 2019 8:31:47 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--dtrace-file=/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 2, 2019 8:43:16 PMDynamic Comprability file successfully created. Apr 2, 2019 8:43:17 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--dtrace-file=/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 2, 2019 8:43:41 PMDynamic Comprability file successfully created. Apr 2, 2019 8:43:59 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--dtrace-file=/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 2, 2019 8:44:24 PMDynamic Comprability file successfully created. Apr 2, 2019 8:44:25 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 2, 2019 8:47:43 PMDynamic Comprability file successfully created. Apr 2, 2019 8:47:44 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+Cannot write to serialization output file  /home/suntrie/IdeaProjects/predicatesMiner/tmp/invariants.inv.gz
+Dynamic Comprability file is creating now...Apr 2, 2019 8:47:59 PMDynamic Comprability file successfully created. Apr 2, 2019 8:47:59 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 2, 2019 8:49:14 PMDynamic Comprability file successfully created. Apr 2, 2019 8:49:14 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+Cannot write to serialization output file  /home/suntrie/IdeaProjects/predicatesMiner/tmp/invariants.inv.gz
+Dynamic Comprability file is creating now...Apr 2, 2019 8:52:23 PMDynamic Comprability file successfully created. Apr 2, 2019 8:52:23 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+Cannot write to serialization output file  /home/suntrie/IdeaProjects/predicatesMiner/tmp/invariants.inv.gz
+Dynamic Comprability file is creating now...Apr 2, 2019 8:52:58 PMDynamic Comprability file successfully created. Apr 2, 2019 8:52:59 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 2, 2019 8:55:06 PMDynamic Comprability file successfully created. Apr 2, 2019 8:55:07 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+Cannot write to serialization output file  /home/suntrie/IdeaProjects/predicatesMiner/tmp/invariants.inv.gz
+Dynamic Comprability file is creating now...Apr 2, 2019 8:55:46 PMDynamic Comprability file successfully created. Apr 2, 2019 8:55:52 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+Cannot write to serialization output file  /home/suntrie/IdeaProjects/predicatesMiner/tmp/invariants.inv.gz
+Dynamic Comprability file is creating now...Apr 2, 2019 9:00:22 PMDynamic Comprability file successfully created. Apr 2, 2019 9:00:28 PMDynamic Comprability file is creating now...Apr 2, 2019 9:00:31 PMDynamic Comprability file successfully created. Apr 2, 2019 9:00:37 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+Cannot write to serialization output file  /home/suntrie/IdeaProjects/predicatesMiner/tmp/invariants.inv.gz
+Dynamic Comprability file is creating now...Apr 2, 2019 9:03:39 PMDynamic Comprability file successfully created. Apr 2, 2019 9:03:45 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 2, 2019 9:05:50 PMDynamic Comprability file successfully created. Apr 2, 2019 9:05:51 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+this.age == null
+age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 12:40:29 AMDynamic Comprability file successfully created. Apr 3, 2019 12:40:30 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+this.age == null
+age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 12:41:48 AMDynamic Comprability file successfully created. Apr 3, 2019 12:41:49 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+this.age == null
+age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 12:42:48 AMDynamic Comprability file successfully created. Apr 3, 2019 12:42:49 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+this.age == null
+age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 12:43:39 AMDynamic Comprability file successfully created. Apr 3, 2019 12:43:40 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+this.age == null
+age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 12:49:29 AMDynamic Comprability file successfully created. Apr 3, 2019 12:49:30 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 1:48:08 AMDynamic Comprability file successfully created. Apr 3, 2019 1:48:09 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 1:48:53 AMDynamic Comprability file successfully created. Apr 3, 2019 1:48:54 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 2:01:59 AMDynamic Comprability file successfully created. Apr 3, 2019 2:02:00 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 2:07:34 AMDynamic Comprability file successfully created. Apr 3, 2019 2:07:35 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 2:08:28 AMDynamic Comprability file successfully created. Apr 3, 2019 2:08:29 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 2:13:23 AMDynamic Comprability file successfully created. Apr 3, 2019 2:13:24 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 2:19:21 AMDynamic Comprability file successfully created. Apr 3, 2019 2:19:22 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 2:42:17 AMDynamic Comprability file successfully created. Apr 3, 2019 2:42:18 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Cat:::OBJECT
+this has only one value
+this.name.toString == "Meow"
+===========================================================================
+com.company.Cat.Cat():::EXIT
+this.name == null
+this.age == null
+===========================================================================
+com.company.Cat.incAge():::ENTER
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.incAge():::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(this.age)
+this.name has only one value
+this.age has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::ENTER
+this.name has only one value
+===========================================================================
+com.company.Cat.setAge(java.lang.Integer):::EXIT
+this.name == orig(this.name)
+this.name.toString == orig(this.name.toString)
+this.age == orig(age)
+this.name has only one value
+===========================================================================
+com.company.Cat.setName(java.lang.String):::ENTER
+this.name == null
+this.age == null
+name has only one value
+name.toString == "Meow"
+===========================================================================
+com.company.Cat.setName(java.lang.String):::EXIT
+this.name == orig(name)
+this.age == orig(this.age)
+name.toString == orig(name.toString)
+this.name has only one value
+this.age == null
+name.toString == "Meow"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 3:53:12 AMDynamic Comprability file successfully created. Apr 3, 2019 3:53:12 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 3:53:39 AMDynamic Comprability file successfully created. Apr 3, 2019 3:53:39 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 3:55:50 AMDynamic Comprability file successfully created. Apr 3, 2019 3:55:50 AMDynamic Comprability file is creating now...Apr 3, 2019 3:55:52 AMDynamic Comprability file successfully created. Apr 3, 2019 3:55:53 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 3:56:57 AMDynamic Comprability file successfully created. Apr 3, 2019 3:56:57 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 3:59:30 AMDynamic Comprability file successfully created. Apr 3, 2019 3:59:30 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:03:20 AMDynamic Comprability file successfully created. Apr 3, 2019 4:03:20 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:18:16 AMDynamic Comprability file successfully created. Apr 3, 2019 4:18:17 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:23:21 AMDynamic Comprability file successfully created. Apr 3, 2019 4:23:21 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:24:39 AMDynamic Comprability file successfully created. Apr 3, 2019 4:24:40 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:26:15 AMDynamic Comprability file successfully created. Apr 3, 2019 4:26:16 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:27:20 AMDynamic Comprability file successfully created. Apr 3, 2019 4:27:21 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:30:29 AMDynamic Comprability file successfully created. Apr 3, 2019 4:30:29 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:32:06 AMDynamic Comprability file successfully created. Apr 3, 2019 4:32:07 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:32:48 AMDynamic Comprability file successfully created. Apr 3, 2019 4:32:49 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:35:24 AMDynamic Comprability file successfully created. Apr 3, 2019 4:35:25 AMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 4:59:24 PMDynamic Comprability file successfully created. Apr 3, 2019 4:59:25 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--disable-all-ivariants'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 4:59:58 PMDynamic Comprability file successfully created. Apr 3, 2019 4:59:58 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--disable-all-ivariants'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:00:42 PMDynamic Comprability file successfully created. Apr 3, 2019 5:00:43 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--disable-all-ivariants'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:00:55 PMDynamic Comprability file successfully created. Apr 3, 2019 5:00:55 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+com.company.Main.getty(int, int):::ENTER
+x == 5
+y == 6
+===========================================================================
+com.company.Main.getty(int, int):::EXIT
+return == true
+===========================================================================
+com.company.Main.getty(int, int):::EXIT;condition="return == true"
+===========================================================================
+com.company.Main.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+com.company.Main.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.
+Dynamic Comprability file is creating now...Apr 3, 2019 5:01:15 PMDynamic Comprability file successfully created. Apr 3, 2019 5:01:15 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 3, 2019 5:01:48 PMDynamic Comprability file successfully created. Apr 3, 2019 5:01:49 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 3, 2019 5:02:32 PMDynamic Comprability file successfully created. Apr 3, 2019 5:02:32 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--disable-all-ivariants'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:02:44 PMDynamic Comprability file successfully created. Apr 3, 2019 5:02:45 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 3, 2019 5:05:06 PMDynamic Comprability file successfully created. Apr 3, 2019 5:05:07 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+
+File daikon.inv.binary.twoScalar.IntGreaterEqual.enabled not found.
+Dynamic Comprability file is creating now...Apr 3, 2019 5:05:23 PMDynamic Comprability file successfully created. Apr 3, 2019 5:05:24 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 3, 2019 5:10:34 PMDynamic Comprability file successfully created. Apr 3, 2019 5:10:35 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 3, 2019 5:17:57 PMDynamic Comprability file successfully created. Apr 3, 2019 5:17:57 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:24:44 PMDynamic Comprability file successfully created. Apr 3, 2019 5:24:45 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:25:01 PMDynamic Comprability file successfully created. Apr 3, 2019 5:25:02 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:25:29 PMDynamic Comprability file successfully created. Apr 3, 2019 5:25:30 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:25:52 PMDynamic Comprability file successfully created. Apr 3, 2019 5:25:52 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:26:14 PMDynamic Comprability file successfully created. Apr 3, 2019 5:26:14 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:26:42 PMDynamic Comprability file successfully created. Apr 3, 2019 5:26:42 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 5:27:02 PMDynamic Comprability file successfully created. Apr 3, 2019 5:27:03 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:41:06 PMDynamic Comprability file successfully created. Apr 3, 2019 6:41:06 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:41:57 PMDynamic Comprability file successfully created. Apr 3, 2019 6:41:58 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:42:27 PMDynamic Comprability file successfully created. Apr 3, 2019 6:42:28 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:49:42 PMDynamic Comprability file successfully created. Apr 3, 2019 6:49:43 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:50:17 PMDynamic Comprability file successfully created. Apr 3, 2019 6:50:17 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:50:43 PMDynamic Comprability file successfully created. Apr 3, 2019 6:50:44 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:55:11 PMDynamic Comprability file successfully created. Apr 3, 2019 6:55:12 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:57:14 PMDynamic Comprability file successfully created. Apr 3, 2019 6:57:14 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:58:07 PMDynamic Comprability file successfully created. Apr 3, 2019 6:58:08 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 6:59:31 PMDynamic Comprability file successfully created. Apr 3, 2019 6:59:32 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:04:34 PMDynamic Comprability file successfully created. Apr 3, 2019 7:04:35 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:08:50 PMDynamic Comprability file successfully created. Apr 3, 2019 7:08:51 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:10:50 PMDynamic Comprability file successfully created. Apr 3, 2019 7:10:51 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:11:09 PMDynamic Comprability file successfully created. Apr 3, 2019 7:11:09 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:15:50 PMDynamic Comprability file successfully created. Apr 3, 2019 7:15:51 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:16:59 PMDynamic Comprability file successfully created. Apr 3, 2019 7:17:00 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:17:07 PMDynamic Comprability file successfully created. Apr 3, 2019 7:17:08 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:17:26 PMDynamic Comprability file successfully created. Apr 3, 2019 7:17:27 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:18:31 PMDynamic Comprability file successfully created. Apr 3, 2019 7:18:32 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:19:09 PMDynamic Comprability file successfully created. Apr 3, 2019 7:19:10 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:19:25 PMDynamic Comprability file successfully created. Apr 3, 2019 7:19:25 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:19:44 PMDynamic Comprability file successfully created. Apr 3, 2019 7:19:45 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:20:33 PMDynamic Comprability file successfully created. Apr 3, 2019 7:20:34 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:24:02 PMDynamic Comprability file successfully created. Apr 3, 2019 7:24:03 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:24:49 PMDynamic Comprability file successfully created. Apr 3, 2019 7:24:50 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:44:47 PMDynamic Comprability file successfully created. Apr 3, 2019 7:44:47 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:45:01 PMDynamic Comprability file successfully created. Apr 3, 2019 7:45:02 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:46:43 PMDynamic Comprability file successfully created. Apr 3, 2019 7:46:43 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 7:47:51 PMDynamic Comprability file successfully created. Apr 3, 2019 7:47:52 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:25:03 PMDynamic Comprability file successfully created. Apr 3, 2019 8:25:03 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:25:38 PMDynamic Comprability file successfully created. Apr 3, 2019 8:25:39 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:29:42 PMDynamic Comprability file successfully created. Apr 3, 2019 8:29:43 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:31:07 PMDynamic Comprability file successfully created. Apr 3, 2019 8:31:07 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:35:30 PMDynamic Comprability file successfully created. Apr 3, 2019 8:35:30 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:36:07 PMDynamic Comprability file successfully created. Apr 3, 2019 8:36:07 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:37:12 PMDynamic Comprability file successfully created. Apr 3, 2019 8:37:13 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:37:35 PMDynamic Comprability file successfully created. Apr 3, 2019 8:37:35 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:38:51 PMDynamic Comprability file successfully created. Apr 3, 2019 8:38:52 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:39:32 PMDynamic Comprability file successfully created. Apr 3, 2019 8:39:33 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:41:53 PMDynamic Comprability file successfully created. Apr 3, 2019 8:41:53 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:43:32 PMDynamic Comprability file successfully created. Apr 3, 2019 8:43:33 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:45:50 PMDynamic Comprability file successfully created. Apr 3, 2019 8:45:51 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+Dynamic Comprability file is creating now...Apr 3, 2019 8:46:27 PMDynamic Comprability file successfully created. Apr 3, 2019 8:46:27 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:48:30 PMDynamic Comprability file successfully created. Apr 3, 2019 8:48:30 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:51:00 PMDynamic Comprability file successfully created. Apr 3, 2019 8:51:01 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:51:40 PMDynamic Comprability file successfully created. Apr 3, 2019 8:51:40 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:53:26 PMDynamic Comprability file successfully created. Apr 3, 2019 8:53:27 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:57:09 PMDynamic Comprability file successfully created. Apr 3, 2019 8:57:10 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 8:58:07 PMDynamic Comprability file successfully created. Apr 3, 2019 8:58:08 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:00:16 PMDynamic Comprability file successfully created. Apr 3, 2019 9:00:17 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:02:28 PMDynamic Comprability file successfully created. Apr 3, 2019 9:02:28 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:03:22 PMDynamic Comprability file successfully created. Apr 3, 2019 9:03:23 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:07:01 PMDynamic Comprability file successfully created. Apr 3, 2019 9:07:01 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:10:01 PMDynamic Comprability file successfully created. Apr 3, 2019 9:10:02 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:10:33 PMDynamic Comprability file successfully created. Apr 3, 2019 9:10:34 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:18:47 PMDynamic Comprability file successfully created. Apr 3, 2019 9:18:47 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:19:47 PMDynamic Comprability file successfully created. Apr 3, 2019 9:19:48 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:28:39 PMDynamic Comprability file successfully created. Apr 3, 2019 9:28:40 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:29:44 PMDynamic Comprability file successfully created. Apr 3, 2019 9:29:44 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:30:24 PMDynamic Comprability file successfully created. Apr 3, 2019 9:30:25 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:31:17 PMDynamic Comprability file successfully created. Apr 3, 2019 9:31:18 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:32:08 PMDynamic Comprability file successfully created. Apr 3, 2019 9:32:09 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:34:43 PMDynamic Comprability file successfully created. Apr 3, 2019 9:34:44 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:35:48 PMDynamic Comprability file successfully created. Apr 3, 2019 9:35:49 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:46:48 PMDynamic Comprability file successfully created. Apr 3, 2019 9:46:49 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 9:47:05 PMDynamic Comprability file successfully created. Apr 3, 2019 9:47:06 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:03:58 PMDynamic Comprability file successfully created. Apr 3, 2019 10:03:59 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:04:26 PMDynamic Comprability file successfully created. Apr 3, 2019 10:04:27 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:05:22 PMDynamic Comprability file successfully created. Apr 3, 2019 10:05:23 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:06:02 PMDynamic Comprability file successfully created. Apr 3, 2019 10:06:03 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:06:24 PMDynamic Comprability file successfully created. Apr 3, 2019 10:06:24 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:06:52 PMDynamic Comprability file successfully created. Apr 3, 2019 10:06:53 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:07:26 PMDynamic Comprability file successfully created. Apr 3, 2019 10:07:27 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
+Dynamic Comprability file is creating now...Apr 3, 2019 10:08:20 PMDynamic Comprability file successfully created. Apr 3, 2019 10:08:20 PMentered daikon.chicory.Runtime.setDtrace(/home/suntrie/IdeaProjects/predicatesMiner/tmp/tracerace.dtrace.gz, false)...
+daikon.Daikon: unrecognized option '--config_option daikon.inv.binary.twoScalar.IntGreaterEqual.enabled=true'
+Daikon version 5.7.2, released November 7, 2018; http://plse.cs.washington.edu/daikon.
+Daikon invariant detector, copyright 1998-2018
+Uses the Java port of GNU getopt, copyright (c) 1998 Aaron M. Renn
+Usage:
+    java daikon.Daikon [flags...] files...
+  Each file is a declaration file or a data trace file; the file type
+  is determined by the file name (containing ".decls" or ".dtrace").
+  For a list of flags, see the Daikon manual, which appears in the 
+  Daikon distribution and also at http://plse.cs.washington.edu/daikon/.
+
